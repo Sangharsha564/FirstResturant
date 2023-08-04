@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Playball");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Pacifico", cursive;
+  border-bottom: 1px solid green;
+}
+.bg-light {
+  padding: 0px;
+  border-radius: 0%;
+  background: #1e1e1e !important;
+  padding-bottom: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: 600;
+  padding-right: 15px;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #7eba5c;
+  border-bottom: 1px solid #7eba5c;
+}
+.nav-link {
+  border-bottom: 1px solid #1e1e1e;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #7eba5c;
+}
+.nav-link {
+  text-transform: uppercase;
+}
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+.slider {
+  background: url(../image/steak.jpg) no-repeat center center;
+  min-height: 640px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 80px;
+}
+.slider .col-md-6 {
+  margin-left: 25%;
+}
+.slider h1 {
+  color: white;
+  font-family: "Playball", cursive;
+  font-size: 120px;
+  font-weight: 400;
+  padding-top: 200px;
+}
+.slider p {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: italic;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  margin: 5px 160px;
+}
+.about h1 {
+  font-size: 32px;
+  font-weight: 900;
+  width: 280px;
+  letter-spacing: 0.04em;
+  border: 1px solid #2f2e2f;
+  text-align: center;
+  margin-left: 25%;
+  padding: 15px 12px;
+}
+.about h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.about p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+}
+.left {
+  width: 49%;
+  height: 220px;
+  float: left;
+}
+.left img {
+  width: 100%;
+  height: 95%;
+}
+.right {
+  width: 49%;
+  height: 220px;
+  float: right;
+}
+.right img {
+  width: 100%;
+  height: 95%;
+}
+.about .col-md-6 {
+  margin-bottom: 40px;
+}
+.price {
+  background: url(../image/pricing.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.price h1 {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  padding-top: 250px;
+}
+.price h1 span {
+  border-bottom: 10px solid white;
+}
+.beer {
+  background: url(../image/beer.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.beer h1 {
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 20%;
+}
+.beer h1 span {
+  border-bottom: 10px solid white;
+}
+.our .spec {
+  width: 80%;
+}
+.spec img {
+  width: 100%;
+}
+.our h1 {
+  font-size: 32px;
+  font-weight: 900;
+  width: 280px;
+  letter-spacing: 0.04em;
+  border: 1px solid #2f2e2f;
+  text-align: center;
+  margin-left: 25%;
+  padding: 15px 12px;
+}
+.our h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.our p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+}
+.our {
+  margin-bottom: 60px;
+}
+.bread {
+  background: url(../image/breakfast.jpg) no-repeat center center;
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 60px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.bread h1 {
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 20%;
+  color: white;
+  text-align: center;
+}
+.bread h1 span {
+  border-bottom: 10px solid white;
+}
+.fresh .container {
+  margin-bottom: 80px;
+}
+.fresh h1 {
+  font-size: 32px;
+  font-weight: 900;
+  width: 280px;
+  letter-spacing: 0.04em;
+  border: 1px solid #2f2e2f;
+  text-align: center;
+  margin-left: 25%;
+  padding: 15px 12px;
+}
+.fresh h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fresh p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+}
+.bread1 {
+  width: 108%;
+  height: 100%;
+}
+.bread1 img {
+  width: 100%;
+  height: 100%;
+}
+.bread2 {
+  width: 108%;
+  height: 100%;
+}
+.bread2 img {
+  width: 100%;
+  height: 100%;
+}
+.dinner {
+  background: url(../image/featured.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  margin-bottom: 80px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.dinner h2 {
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 20%;
+  color: white;
+  text-align: center;
+}
+.dinner h2 span {
+  border-bottom: 10px solid white;
+}
+.dish h1 {
+  font-size: 32px;
+  font-weight: 900;
+  width: 280px;
+  letter-spacing: 0.04em;
+  border: 1px solid #2f2e2f;
+  text-align: center;
+  margin-left: 25%;
+  padding: 15px 12px;
+}
+.dish h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dish p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.table {
+  background: url(../image/featured.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  margin-bottom: 80px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.table h2 {
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 20%;
+  color: white;
+  text-align: center;
+}
+.form-control {
+  border-radius: 0%;
+  line-height: 40px;
+}
+.btn-primary {
+  background: #50a06c !important;
+  padding: 10px 50px;
+  border-color: #50a06c;
+  margin-bottom: 20px;
+}
+.btn-primary:hover {
+  background: #63c85d !important;
+  border-color: #63c85d !important;
+  color: white !important;
+}
+.Reserve h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.Reserve p {
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  line-height: 20px;
+}
+.form-group {
+  width: 100%;
+}
+.follow {
+  min-height: 180px;
+  background: black;
+  padding-top: 30px;
+}
+.follow h4 {
+  text-align: center;
+  color: #63c85d;
+  font-size: 42px;
+  font-weight: 700;
+}
+.follow h3 {
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+}
+.follow h3:hover {
+  color: #63c85d !important;
+  transition: 1s;
+}
+.follow ul {
+  list-style: none;
+  color: white;
+  font-size: 32px;
+  margin-left: 27%;
+}
+.follow ul li {
+  float: left;
+}
+.follow ul li i {
+  padding-left: 25px;
+}
+.follow ul li i:hover {
+  color: #63c85d;
+  transition: 1s;
+}
+.map .container-fluid {
+  padding: 0px;
+  margin-bottom: 40px;
+}
+.send {
+  margin-bottom: 80px;
+}
+form textarea {
+  width: 100%;
+  height: 194px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.footer {
+  background: black;
+  width: 100%;
+  min-height: 80px;
+  text-align: center;
+}
+.footer h6 {
+  color: gray;
+  text-align: center;
+  padding-top: 20px;
+}
+.footer span {
+  color: white;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+.column {
+  width: 200px;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  position: relative;
+}
+
+.show {
+  display: block;
+}
+.port {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#myBtnContainer {
+  margin-left: 20%;
+}
+.content img {
+  width: 100%;
+  position: relative;
+}
+.dollar {
+  width: 100%;
+  height: 50px;
+  background: #d30f22;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  text-align: center;
+  padding-top: 5px;
+}
+.dollar h2 {
+  color: white;
+}
+.tab {
+  background: none;
+  border-radius: 0%;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 20px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.tab:hover {
+  color: red;
+}
+.btn:not(:disabled):not(.disabled)a {
+  border-bottom: 1px solid red;
+}
+@media (max-width: 420px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(254, 252, 252, 0.5);
+    border-color: rgba(249, 240, 240, 1);
+  }
+
+  .slider h1 {
+    font-size: 300%;
+  }
+  .slider p {
+    margin: auto;
+    font-size: 18px;
+  }
+  .about h1 {
+    margin-left: auto;
+    margin: auto;
+    border: 10px solid black;
+  }
+  .left {
+    width: 100%;
+    padding-left: 20%;
+  }
+  .right {
+    width: 100%;
+    padding-left: 20%;
+  }
+  .left img {
+    width: 80%;
+  }
+  .right img {
+    width: 80%;
+  }
+  .price h1 {
+    font-size: 56px;
+    padding-top: 25%;
+  }
+  .beer h1 {
+    font-size: 56px;
+  }
+  .our h1 {
+    margin-top: 40px;
+    border: 10px solid black;
+    margin: 40px auto;
+  }
+  .bread h1 {
+    font-size: 56px;
+  }
+  .port img {
+    width: 100%;
+  }
+  .fresh h1 {
+    border: 10px solid black;
+    margin: auto;
+  }
+  .bread1 img {
+    padding-right: 25px;
+  }
+  .bread2 img {
+    padding-right: 25px;
+  }
+  .dinner h2 {
+    font-size: 56px;
+  }
+  .Reserve p {
+    line-height: 20px;
+  }
+  .spec img {
+    width: 125%;
+  }
+  .dish h1 {
+    margin: auto;
+    border: 10px solid black;
+  }
+  .port img {
+    width: 180px;
+  }
+}
